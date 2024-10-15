@@ -1,7 +1,8 @@
 
+import java.util.Scanner; // Cargamos la clase Scanner para poder hacer uso de ella
+
 public class EntradaDemo {
 
-	import java.util.Scanner; // Cargamos la clase Scanner para poder hacer uso de ella
 
 	public static void main(String[ ] args) {
 
