@@ -3,29 +3,23 @@ import java.util.Scanner; // Cargamos la clase Scanner para poder hacer uso de e
 
 public class EntradaDemo {
 
+	public static void main(String[] args) {
 
-	public static void main(String[ ] args) {
+		Scanner input = new Scanner(System.in); // Declaramos un objeto llamado input de la clase Scanner.
 
-	      	Scanner input = new Scanner(System.in); // Declaramos un objeto llamado input de la clase Scanner.
+		System.out.print("Introduzca tu edad en años: ");
 
-	         System.out.print("Introduzca tu edad en años: ");
+		double edad = input.nextDouble();
 
-	 
+		System.out.print("Introduce tu frecuencia cardíaca máxima: ");
 
-	    	double edad= input.nextDouble( );
+		double frecuencia = input.nextDouble();
 
-	        System.out.print("Introduce tu frecuencia cardíaca máxima: ");
+		double fquemar = (frecuencia - edad) * 0.65;
 
-	   	double frecuencia = input.nextDouble( );
+		System.out.println("Tu frecuencia cardíaca ideal para quemar grasa es " + fquemar);
 
-	   	double fquemar = (frecuencia-edad)*0.65;
-
-	  	
-
-	        System.out.println("Tu frecuencia cardíaca ideal para quemar grasa es " + fquemar );
-
-		}
+	}
 
 }
-
 
