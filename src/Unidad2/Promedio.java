@@ -22,6 +22,9 @@ public class Promedio {
 		System.out.printf("Este es el resultado: %.20f", promedio);
 
 		teclado.close();
+		
+		
+		
 	}
 
 }
