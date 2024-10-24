@@ -20,8 +20,9 @@ public class Prueba {
 			
 			
 			
-			System.out.printf("\n%d%8s", num, " Anacleto"  );
+			System.out.printf("\n%d%8s", num, " Ana");
 			num++;
+			
 
 		}
 		teclado.close();

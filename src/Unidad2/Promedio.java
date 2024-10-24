@@ -23,8 +23,6 @@ public class Promedio {
 
 		teclado.close();
 		
-		
-		
 	}
 
 }
