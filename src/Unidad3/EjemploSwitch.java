@@ -37,6 +37,7 @@ public class EjemploSwitch {
 			int resultado = numero1+numero2;
 			System.out.println("La suma es: "+resultado);
 			break;*/
+		teclado.close();
 
 			
 			
